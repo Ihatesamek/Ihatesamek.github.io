@@ -11,17 +11,6 @@ h1{
 }
 
 
-img{
-    margin: 10px;
-    text-align:center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    filter:opacity(70%);
-    filter:sepia(100%)
-}
-
 ul {
 
 }
