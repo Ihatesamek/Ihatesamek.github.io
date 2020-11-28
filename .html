@@ -1,24 +1,6 @@
 <!DOCTYPE html>
 <img src="https://ibb.co/1qBpcRR" alt="sam">
 <h1>I Hate You Sam Ek</h1> <p>CLick if Sam Sucks</p>
- function KeyPressAnalyze
-    KeyPress_Main = figure;
-    set(KeyPress_Main, 'KeyPressFcn',@KeyPress_Main_KeyPress_Callback, 'KeyReleaseFcn',@KeyPress_Main_KeyRelease_Callback);
-    KeyPressCount = 0;
-    PressedKeyCurrent = {};
-        function KeyPress_Main_KeyPress_Callback(Handle, Event)
-            tic;
-            PressedKeyCurrent = Event.Key;
-        end
-        function KeyPress_Main_KeyRelease_Callback(Handle, Event)
-            KeyReleaseTime = toc;
-            disp(KeyReleaseTime);
-            ReleasedKey = Event.Key;
-            if (strcmp(PressedKeyCurrent, ReleasedKey) && (KeyReleaseTime < 0.05))
-                disp(KeyPressCount);
-            else
-                KeyPressCount = KeyPressCount + 1;
-                disp(KeyPressCount);
-            end
-        end
-end
+</ul>
+<a href="https://" class="btn btn-lg btn-block btn-success" role="button">Button</a>
+</div>
